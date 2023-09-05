@@ -7,7 +7,12 @@ module.exports = {
     extend: {
         width: {
           '90': '90%',
+          '120':'40rem'
         },
+        height:{
+          '90':'90%',
+          '120':'40rem'
+        }
     },
   },
   plugins: [],
