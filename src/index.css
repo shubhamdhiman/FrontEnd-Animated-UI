@@ -17,3 +17,8 @@ body{
   background-color:#b3a0fb;
   border-radius: 2.5px;
 }
+.line {
+  width: 2px;
+  background-color: violet;
+  height: 100%;
+}

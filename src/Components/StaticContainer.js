@@ -1,9 +1,9 @@
 import React from "react";
 
-function StaticContainer({ colData }) {
+function StaticContainer({ colData , hf}) {
   console.log(colData)
   return (
-    <div className="flex justify-center items-center p-8 px-16 mt-16 mb-24 w-full" style={{}}>
+    <div className="flex justify-center items-center p-8 px-16 mt-16 mb-24 w-full" style={{height:`${hf}`}}>
       <div
         className="w-1/4 flex justify-center pl-24 items-start p-8 font-medium "
         style={{ fontSize: "2.5rem" ,height: "200px"}}
