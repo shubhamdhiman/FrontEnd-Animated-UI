@@ -55,3 +55,17 @@ export const soundFamiliarData = [
     },
 
 ]
+
+
+export const staticContainer1 = 
+    {
+        leftCol:"EQ Beats IQ",
+        middleCol:"People with high emotional intelligence (EQ) live more fulfilled lives. They tend to be happier and have healthier relationships.",
+        rightCol:"They are more successfull in their pursuits and make for inspiring leaders. According to science they earn $25 a year."
+    }
+export const staticContainer2 = 
+    {
+        leftCol:"Be the best you with EQ",
+        middleCol:"Not having your own emotions under control might be holding you back.",
+        rightCol:"Additionally, not understanding those of others stops you from being parent, friend you can be."
+    }

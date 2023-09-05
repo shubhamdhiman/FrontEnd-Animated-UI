@@ -46,7 +46,7 @@ import { soundFamiliarData } from '../Utils';
 
 function SoundFamiliar() {
   return (
-    <div className='w-90 m-auto'>
+    <div className='w-90 m-auto mb-32'>
       <div className='font-bold px-20 mb-16' style={{ fontSize: '3.5rem' }}>
         Does this sound familiar...
       </div>
@@ -55,7 +55,7 @@ function SoundFamiliar() {
         style={{
           overflowX: 'auto',
           scrollbarWidth: 'none', // Hide the scrollbar in Firefox
-          '-ms-overflow-style': 'none', // Hide the scrollbar in Internet Explorer/Edge
+          msOverflowStyle: 'none', // Hide the scrollbar in Internet Explorer/Edge
         }}
       >
         {soundFamiliarData.map((item, index) => {
