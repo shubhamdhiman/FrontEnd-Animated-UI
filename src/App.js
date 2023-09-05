@@ -1,10 +1,13 @@
 
 import './App.css';
+import LandingPage from './Components/LandingPage';
+import Navbar from './Components/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <h1 className='text-2xl text-center mt-12 text-blue-500 font-bold'>Hello Density</h1>
+      <Navbar />
+      <LandingPage />
     </div>
   );
 }
