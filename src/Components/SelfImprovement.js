@@ -1,15 +1,20 @@
-import React from "react";
-
+import React, { useState } from "react";
+import { mainHeading } from "../GSAP/SoundFamiliarGSAP";
+import jellyfishpurple from '../Assets/jellyfish/jellyfishpurple.png'
 function SelfImprovement() {
+  useState(()=>{
+    mainHeading('.selfImproveHeading','.floatFish')
+  },[])
   return (
-    <div className="w-90 m-auto my-24 mt-44">
-      <div className="px-36">
+    <div className="w-90 m-auto my-24 mt-44 selfImproveHeading">
+      <div className="px-36  relative">
         <p className="text-xl mb-2">
           Wrong with self-improvement &amp; how we are fixing it
         </p>
         <p className="font-bold" style={{ fontSize: "3.5rem" }}>
           Self-improvement. Ugh.
         </p>
+        <img className='absolute top-0 right-0 floatFish rotate-12' width={70} src={jellyfishpurple} alt='Not found'/>
       </div>
       <div className="flex justify-center items-center mt-24">
         <ol className="relative w-2/5  text-gray-500 border-l-2  border-violet-200 dark:border-gray-700 dark:text-gray-400">

@@ -1,37 +1,6 @@
 import gsap  from "gsap";
 import ScrollTrigger from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
-// export function mainHeading(heading,floatFish){
-//     gsap.fromTo(
-//         heading,
-//         {
-//             scale:0,
-//             opacity: 0,      // Start with opacity 0
-//             x: '-70%',      // Start with x position off-screen to the left
-//           },
-//           {
-//             scale:1,
-//             opacity: 1,      // Animate to full opacity
-//             x: '0%',         // Animate to x position at 0% (original position)
-//             duration: 1,     // Animation duration in seconds
-//             ease: 'back', // Use the 'elastic' ease (optional)
-//           }
-//       );
-//       gsap.to(
-//         floatFish,
-//           {
-//             scale:1,
-//             transform:"rotate(-40deg)",
-//             opacity: 1,      // Animate to full opacity
-//             x: '0%',         // Animate to x position at 0% (original position)
-//             duration: 2,     // Animation duration in seconds
-//             ease: 'ease', // Use the 'elastic' ease (optional)
-//             right:"45%",
-//             top:"20%",
-//           }
-//       );
-
-// }
 
 
 export function mainHeading(heading, floatFish) {
