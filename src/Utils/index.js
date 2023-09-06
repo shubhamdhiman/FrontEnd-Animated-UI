@@ -53,6 +53,24 @@ export const soundFamiliarData = [
         heading:"You argue with a collegue",
         desc:"You get angry and defensive, instead of staying open and working towards common ground."
     },
+    {
+        id:7,
+        tilted:"no",
+        emoji:"&#128544;",
+        color:"#EDEEDE",
+        textColor:"black",
+        heading:"You argue with a collegue",
+        desc:"You get angry and defensive, instead of staying open and working towards common ground."
+    },
+    {
+        id:8,
+        tilted:"no",
+        emoji:"&#128530;",
+        color:"#F3E6C1",
+        textColor:"black",
+        heading:"You are at a lively dinner party",
+        desc:"You play on your phone, instead of confidently approaching strangers and striking up a chat."
+    },
 
 ]
 export const workwithusData = [
