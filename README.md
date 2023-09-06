@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# Front-End Intern UI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Created an animated/ attractive ui using GreehSock library.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Tools Used
+<img align="left" src="https://user-images.githubusercontent.com/18380165/224329335-3cdf989b-bdce-41e6-82dc-7d4c50d5f283.png" width="100" height="100">
+<img align="left" src="https://user-images.githubusercontent.com/18380165/224329345-7363d693-4f27-4a58-8c9e-086d8a3fa420.png" width="100" height="100">
+<img align="left" src="https://user-images.githubusercontent.com/18380165/224332427-426a3fbb-e25d-4deb-a832-666ae2e2e418.png" width="100" height="100">
+<img align="left" src="https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png" width="100" height="100">
+<img align="left" src="https://github.com/shubhamdhiman/E-commerce-React-Redux-SPA/assets/18380165/b529667b-6376-4884-a854-14ecb9806a51" width="100" height="100">
+<br>
+<img  src="https://user-images.githubusercontent.com/18380165/224329339-a5174b23-1a5c-4ae4-95c8-ead20a29d77e.png" width="100" height="100">
 
-### `npm start`
+## Website 
+### To see the project: https://csv-upload-p.onrender.com/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Preview...
+First
+![1](https://github.com/shubhamdhiman/frontend_ui_intern/assets/18380165/279ed706-8377-4ebf-b3fe-51f0549359ec)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Second
 
-### `npm test`
+![2](https://github.com/shubhamdhiman/frontend_ui_intern/assets/18380165/23a53c0d-975b-4690-b0cd-bb30fc0f04c3)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+Third
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![3](https://github.com/shubhamdhiman/frontend_ui_intern/assets/18380165/71790517-fab9-4b9a-ae7a-917a1b516ab1)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Fourth
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![4](https://github.com/shubhamdhiman/frontend_ui_intern/assets/18380165/450cfc1f-40f2-490b-a5de-4e302861228b)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Fifth
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![5](https://github.com/shubhamdhiman/frontend_ui_intern/assets/18380165/51bc7082-9c16-4dd9-b24f-c8b1b15f3dc8)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+Sixth
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![6](https://github.com/shubhamdhiman/frontend_ui_intern/assets/18380165/f90a35d6-9938-42e1-8ea4-6dedfa4cc9ce)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Seventh
+![7](https://github.com/shubhamdhiman/frontend_ui_intern/assets/18380165/182e59cf-d189-442a-b450-d1553396f240)
 
-### Code Splitting
+Eighth
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![8](https://github.com/shubhamdhiman/frontend_ui_intern/assets/18380165/abb9cd2a-a3c6-4e89-8ed0-742e579dd152)
 
-### Analyzing the Bundle Size
+Nineth
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+![9](https://github.com/shubhamdhiman/frontend_ui_intern/assets/18380165/e9031b2c-6493-4fc4-8be0-d7dbd89f0b1d)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Tenth
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![10](https://github.com/shubhamdhiman/frontend_ui_intern/assets/18380165/606c8798-32b5-47b0-a07b-f9779a05bc29)
 
-### Deployment
+Eleventh
+![11](https://github.com/shubhamdhiman/frontend_ui_intern/assets/18380165/eecd8976-73f2-4b4a-ada1-f2a7807eed4d)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## To start the project in local system, write two commands in the terminal
+* npm install, (This will install all the require dependencies)
+   
+* npm start
+
+## Contact Me
+* Email: shubhamdhiman00.sd@gmail.com
+* Instagram: @shubham_dhiman3.089
+* Twitter: https://twitter.com/shubhamdhiman78
+* Youtube: https://www.youtube.com/channel/UCiB-unVOfV1dcHWyvhesI4w
