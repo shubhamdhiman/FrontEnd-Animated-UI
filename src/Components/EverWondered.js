@@ -9,20 +9,20 @@ function EverWondered() {
 
   return (
     <div
-      className="everWonderedContainer w-4/5 m-auto mb-32 flex flex-col justify-center "
+      className="everWonderedContainer w-4/5 xl:w-11/12 m-auto mb-32 flex flex-col justify-center "
       style={{
         overflow: "hidden",
-        height: "80vh",
+        height: "90vh",
         background: "#edf8fe",
         borderRadius: "3rem",
       }}
     >
       <div className="px-16 text-center">
-        <p className="text-2xl font-normal">
+        <p className="text-2xl font-normal mb-8">
           Let your friend families and co-workers &#40;anonymously&#41; rate
           your social skills.
         </p>
-        <p className="font-semibold" style={{ fontSize: "4rem" }}>
+        <p className="font-semibold xl:text-6xl lg:text-5xl line-height-8" >
           Ever wondered what others think of you?{" "}
         </p>
       </div>
@@ -65,13 +65,13 @@ function EverWondered() {
           </div>
         </div>
         <div className="relative mt-24 text-center">
-          <div className="absolute bulletPointDesc left-36 -top-10 w-80">
+          <div className="absolute bulletPointDesc xl:left-36 lg:left-24 -top-10 lg:w-60 xl:w-80">
             Answer question on your social skills
           </div>
-          <div className="absolute bulletPointDesc left-2/4 -translate-x-2/4 -top-10 w-80 ">
+          <div className="absolute bulletPointDesc left-2/4 -translate-x-2/4 -top-10 lg:w-60 xl:w-80 ">
             Let others anonymously answer the same question about you
           </div>
-          <div className="absolute bulletPointDesc right-36 -top-10 w-80 ">
+          <div className="absolute bulletPointDesc xl:right-36 lg:right-24 -top-10 lg:w-60 xl:w-80 ">
             Find out where you and others see things the same way and where not
           </div>
         </div>
@@ -106,17 +106,17 @@ function EverWondered() {
           >You
           </div>
           <div
-            className="absolute bullet2Desc left-2/3 py-2 px-8  -top-16 text-white translate-2/4 rounded-md flex justify-center items-center"
+            className="absolute bullet2Desc left-2/3 py-2 xl:px-8 lg:px-4  -top-16  text-white translate-2/4 rounded-md flex justify-center items-center"
             style={{ backgroundColor: "#fdb338" }}
-          >Anonymous 1
-          </div>
-          <div
-            className="absolute bullet2Desc right-1/3 py-2 px-8 top-6 text-white rounded-md -translate-2/4 flex justify-center items-center"
-            style={{ backgroundColor: "#40c2fb" }}
           >Anonymous 2
           </div>
           <div
-            className="absolute bullet2Desc -right-44 py-2 px-8 top-6 text-white  rounded-md flex justify-center items-center"
+            className="absolute bullet2Desc right-1/3 py-2 xl:px-8 lg:px-4 top-6 text-white rounded-md -translate-2/4 flex justify-center items-center"
+            style={{ backgroundColor: "#40c2fb" }}
+          >Anonymous 1
+          </div>
+          <div
+            className="absolute bullet2Desc xl:-right-44 lg:-right-32 py-2 xl:px-8 lg:px-4 top-6 text-white  rounded-md flex justify-center items-center"
             style={{ backgroundColor: "#58c896" }}
           >Anonymous 3
           </div>

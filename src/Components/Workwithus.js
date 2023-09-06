@@ -31,7 +31,7 @@ function Workwithus({ data }) {
   return (
     // ... Your component JSX ...
     <div
-      className="wwuContainer relative w-4/5 m-auto mb-32 flex flex-col justify-center"
+      className="wwuContainer relative xl:w-4/5 lg:w-11/12 m-auto mb-32 flex flex-col justify-center"
       style={{
         overflow: "hidden",
         height: "85vh",
@@ -53,10 +53,10 @@ function Workwithus({ data }) {
           className="relative w-2/5  bg-white rounded-xl shadow-xl"
           style={{ height: "35rem" }}
         >
-          <div className="p-8">
+          <div className="xl:p-8 lg:p-6">
             <img src={jellyfishpurple} width={70}/>
             <p className=" font-medium text-3xl">About</p>
-            <p className="text-xl leading-8 mt-4">
+            <p className="xl:text-xl lg:text-lg leading-8 mt-4">
               At ahead our goal is to make self-improvement fun and lasting. We
               know there is a way how to make it work. And that's what aHead is
               all about!
@@ -67,7 +67,7 @@ function Workwithus({ data }) {
             style={{ height: "15rem", backgroundColor: "#fef7f1" }}
           >
             <p className="font-medium text-3xl">Product</p>
-            <p className="text-xl leading-8 mt-4">
+            <p className="xl:text-xl lg:text-lg leading-8 mt-4">
               Sure, you can spend ages reading books or sitting on seminars on
               how to become a better spouse, parent, or manager - like we did...
             </p>

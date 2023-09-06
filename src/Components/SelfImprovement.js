@@ -7,11 +7,11 @@ function SelfImprovement() {
   },[])
   return (
     <div className="w-90 m-auto my-24 mt-44 selfImproveHeading">
-      <div className="px-36  relative">
-        <p className="text-xl mb-2">
+      <div className="xl:px-12 lg:px-8 relative">
+        <p className="text-xl mb-4">
           Wrong with self-improvement &amp; how we are fixing it
         </p>
-        <p className="font-bold" style={{ fontSize: "3.5rem" }}>
+        <p className="font-bold xl:text-6xl lg:text-5xl" style={{ }}>
           Self-improvement. Ugh.
         </p>
         <img className='absolute top-0 right-0 floatFish2 rotate-12' width={70} src={jellyfishpurple} alt='Not found'/>

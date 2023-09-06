@@ -18,8 +18,8 @@ function MeetAhead() {
       }}
     >
       <div className="px-16 " id="headingContainer">
-        <p className="text-2xl font-normal subHeading">Built out of frustation</p>
-        <p className="font-semibold mainHeading" style={{ fontSize: "4rem" }}>
+        <p className="xl:text-2xl lg:text-xl font-normal subHeading">Built out of frustation</p>
+        <p className="font-semibold mainHeading xl:text-6xl lg:text-5xl" style={{ }}>
           Meet the ahead app
         </p>
       </div>
@@ -46,11 +46,11 @@ function MeetAhead() {
           </div>
         </div>
         <div className="w-1/2 p-20 pl-4" id="asideContainer">
-          <p className="text-3xl text-left mb-8">
+          <p className="xl:text-3xl lg:text-2xl text-left mb-8">
             A personalized pocket coach that provides bite-sized science driven
             tools to boost emotional intellegence.
           </p>
-          <p className="text-3xl text-left">
+          <p className="xl:text-3xl lg:text-2xl text-left">
             Think of it as a pocket cheerleader towards a better, more
             fulfilling.
           </p>

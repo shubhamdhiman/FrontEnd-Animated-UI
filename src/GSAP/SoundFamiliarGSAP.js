@@ -22,9 +22,7 @@ export function mainHeading(heading, floatFish) {
           trigger: heading, // The element that triggers the animation
           start: 'top 80%', // Start animation when the top of the element is 80% in the viewport
           end: 'bottom 20%', // End animation when the bottom of the element is 20% in the viewport
-        //   scrub: true, // Smoothly scrub the animation as you scroll
-        //   markers: true, // Add markers for debugging (optional)
-        },
+       },
       }
     );
   
@@ -36,7 +34,7 @@ export function mainHeading(heading, floatFish) {
       x: '0%',
       duration: 2,
       ease: 'ease',
-      right: '45%',
+      right: '44%',
       top: '20%',
       scrollTrigger: {
         trigger: heading, // The element that triggers the animation

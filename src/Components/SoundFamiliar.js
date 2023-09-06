@@ -12,8 +12,8 @@ function SoundFamiliar() {
   }, []);
   return (
     <div className='w-90 m-auto mb-32'>
-      <div className='relative font-bold px-20 mb-16' style={{ fontSize: '3.5rem' }}>
-        <p className='soundFamiliarHeading overflow-hidden'>Does this sound familiar...</p>
+      <div className='relative font-bold xl:px-20 lg:px-12 mb-16 xl:text-6xl lg:text-5xl' style={{  }}>
+        <p className='soundFamiliarHeading overflow-hidden w-full'>Does this sound familiar...</p>
         <img className='absolute top-0 right-0 floatFish rotate-12' width={70} src={jellyFish} alt='Not found'/>
       </div>
       <div
