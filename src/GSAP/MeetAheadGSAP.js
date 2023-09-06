@@ -2,13 +2,33 @@ import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
-export function animateHeading(headContainer,asideContainer) {
+export function animateHeading(headContainer,asideContainer,blobid,coinid) {
+  
+
+
+    gsap.fromTo(
+      coinid,
+      {
+        y:"300px"
+      },
+      {
+        y:"160px",
+        duration: 1, // Adjust the duration as needed
+        ease: "ease",
+        scrollTrigger:{
+          trigger: "#headingContainer",
+        start: "top 80%",
+        end: "bottom 20%",
+        }
+      }
+    )
+  
   gsap.fromTo(
     [headContainer,asideContainer], // Target the heading container by its ID
     {
       opacity: 0,
       x: -100,
-    scale:0
+      scale:0
     },
     {
       opacity: 1,
@@ -23,27 +43,28 @@ export function animateHeading(headContainer,asideContainer) {
       },
     }
   );
+  gsap.fromTo(
+    blobid, // Target the heading container by its ID
+      {
+        x: "600px",
+        y:"150px",
+      },
+      {
+          // opacity:1,
+        x: "30px",
+        y:"50px",
+        duration: 2, // Adjust the duration as needed
+        ease: "ease", // Use the ease of your choice
+        scrollTrigger: {
+          trigger: "#headingContainer",
+          start: "top 80%",
+          end: "bottom 20%",
+        },
+      }
+    );
   
 }
-export function blob(){
-    gsap.from(
-        ".blob", // Target the heading container by its ID
-        
-        {
-            opacity:1,
-        //   scale:0,
-          x: "100%",
-          y:"50%",
-          duration: 2, // Adjust the duration as needed
-          ease: "ease", // Use the ease of your choice
-          scrollTrigger: {
-            trigger: "#headingContainer",
-            start: "top 80%",
-            end: "bottom 20%",
-          },
-        }
-      );
-}
+
 export function jellyFishFocus() {
     gsap.fromTo(
       '.jellyFishImg', // Target the heading container by its ID
