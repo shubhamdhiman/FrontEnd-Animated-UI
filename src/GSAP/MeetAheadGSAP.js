@@ -61,6 +61,7 @@ export function jellyFishFocus() {
           trigger: "#headingContainer",
           start: "top 80%",
           end: "bottom 20%",
+        
         },
       }
     );

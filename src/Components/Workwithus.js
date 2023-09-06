@@ -1,9 +1,37 @@
-import React from "react";
 
-function Workwithus({data}) {
+
+
+
+
+import React, { useEffect } from "react";
+import jellyfishpurple from '../Assets/jellyfish/jellyfishpurple.png'
+import { wwuHeading } from "../GSAP/WorkwithusGSAP";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
+
+function Workwithus({ data }) {  
+  useEffect(() => {
+    wwuHeading(".leftHeading", ".rightHeading", ".wwuContainer", "-100%");
+
+    gsap.to(".scrollContent", {
+      y: () => -(document.querySelector(".scrollContent").offsetHeight - document.querySelector(".scrollbar2").offsetHeight),
+      ease: "none",
+      scrollTrigger: {
+        trigger: ".scrollbar2",
+        scrub: true,
+        // markers:true,
+        start: "top 50%",
+        end:"top 0%",
+        end: () => `+=${document.querySelector(".scrollContent").offsetHeight}`,
+      },
+    });
+  }, []);
+
   return (
+    // ... Your component JSX ...
     <div
-      className="relative w-4/5 m-auto mb-32 flex flex-col justify-center"
+      className="wwuContainer relative w-4/5 m-auto mb-32 flex flex-col justify-center"
       style={{
         overflow: "hidden",
         height: "85vh",
@@ -15,8 +43,8 @@ function Workwithus({data}) {
         className=" flex justify-between px-16 font-semibold"
         style={{ fontSize: "4rem" }}
       >
-        <p>Work with us</p>
-        <p className="pr-16" style={{ color: "#6542f1" }}>
+        <p className="leftHeading">Work with us</p>
+        <p className="rightHeading pr-16" style={{ color: "#6542f1" }}>
           ahead
         </p>
       </div>
@@ -26,7 +54,8 @@ function Workwithus({data}) {
           style={{ height: "35rem" }}
         >
           <div className="p-8">
-            <p className="font-medium text-3xl">About</p>
+            <img src={jellyfishpurple} width={70}/>
+            <p className=" font-medium text-3xl">About</p>
             <p className="text-xl leading-8 mt-4">
               At ahead our goal is to make self-improvement fun and lasting. We
               know there is a way how to make it work. And that's what aHead is
@@ -48,9 +77,10 @@ function Workwithus({data}) {
         {/* Scrollbar Section */}
         <div className="scrollbar2" style={{overflowY:"scroll",height:"40rem"}}>
             {/* Scrollbar items */}
+          <div className="scrollContent">
           {
             data.map(item=>{
-                return <div key={item.id} className="px-16 mb-8">
+                return <div key={item.id} className=" px-16 mb-8">
                 <div
                   className={`mx-8 rounded-3xl h-52 p-8 `}
                   style={{
@@ -70,6 +100,7 @@ function Workwithus({data}) {
               </div>
             })
           }
+          </div>
            
            
           
@@ -80,3 +111,7 @@ function Workwithus({data}) {
 }
 
 export default Workwithus;
+
+
+
+

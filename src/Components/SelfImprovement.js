@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-import { mainHeading } from "../GSAP/SoundFamiliarGSAP";
+import React, { useEffect } from "react";
 import jellyfishpurple from '../Assets/jellyfish/jellyfishpurple.png'
+import { selfImpJellyFish } from "../GSAP/SelfImprovementGASP";
 function SelfImprovement() {
-  useState(()=>{
-    mainHeading('.selfImproveHeading','.floatFish')
+  useEffect(()=>{
+    selfImpJellyFish()
   },[])
   return (
     <div className="w-90 m-auto my-24 mt-44 selfImproveHeading">
@@ -14,7 +14,7 @@ function SelfImprovement() {
         <p className="font-bold" style={{ fontSize: "3.5rem" }}>
           Self-improvement. Ugh.
         </p>
-        <img className='absolute top-0 right-0 floatFish rotate-12' width={70} src={jellyfishpurple} alt='Not found'/>
+        <img className='absolute top-0 right-0 floatFish2 rotate-12' width={70} src={jellyfishpurple} alt='Not found'/>
       </div>
       <div className="flex justify-center items-center mt-24">
         <ol className="relative w-2/5  text-gray-500 border-l-2  border-violet-200 dark:border-gray-700 dark:text-gray-400">

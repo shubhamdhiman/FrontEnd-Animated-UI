@@ -39,7 +39,7 @@ export function mainHeading(heading, floatFish) {
       right: '45%',
       top: '20%',
       scrollTrigger: {
-        trigger: floatFish, // The element that triggers the animation
+        trigger: heading, // The element that triggers the animation
         start: 'top 80%', // Start animation when the top of the element is 80% in the viewport
         end: 'bottom 20%', // End animation when the bottom of the element is 20% in the viewport
         // scrub: true, // Smoothly scrub the animation as you scroll

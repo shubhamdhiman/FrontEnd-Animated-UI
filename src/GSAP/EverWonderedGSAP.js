@@ -28,7 +28,8 @@ export function timeLineInitial(){
           ease: "ease",
           scrollTrigger:{
             trigger:".everWonderedContainer",
-            start:"top 80%"
+            start:"top 50%",
+            // markers:true,
           }
         }
       );
