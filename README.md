@@ -13,7 +13,7 @@ Created an animated/ attractive ui using GreehSock library.
 <img  src="https://user-images.githubusercontent.com/18380165/224329339-a5174b23-1a5c-4ae4-95c8-ead20a29d77e.png" width="100" height="100">
 
 ## Website 
-### To see the project: https://csv-upload-p.onrender.com/
+### To see the project: https://frontend-intern-ui.netlify.app/
 
 ## Preview...
 First
