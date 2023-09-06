@@ -17,7 +17,7 @@ Created an animated/ attractive ui using GreehSock library.
 
 ## Preview...
 First
-![1](https://github.com/shubhamdhiman/frontend_ui_intern/assets/18380165/279ed706-8377-4ebf-b3fe-51f0549359ec)
+![1](https://github.com/shubhamdhiman/frontend_ui_intern/assets/18380165/0dddf2bb-0665-4525-b945-08bad1073e98)
 
 Second
 
