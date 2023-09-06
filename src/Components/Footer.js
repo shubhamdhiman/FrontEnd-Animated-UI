@@ -2,11 +2,12 @@ import React from 'react'
 import appstore from '../Assets/appstore.png'
 import mail from '../Assets/mail.png'
 import location from '../Assets/location.png'
+import jellyfishcropped from '../Assets/jellyfish/jellyfishcropped.png'
 function Footer() {
   return (
     <div className='flex justify-center items-center my-16'>
       <div className='text-center'>
-        <img src="" />
+        <img className="m-auto mb-4" src={jellyfishcropped} width={100}/>
         <p className='text-2xl font-bold mb-8' style={{color:"#6542f1"}}>ahead</p>
         <div className='flex justify-between text-xl mb-8 gap-12'>
           <p className='flex  items-center'><img className="p-2 bg-green-200 rounded-full"width={40}height={30} src={location}/>

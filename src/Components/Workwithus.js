@@ -50,7 +50,7 @@ function Workwithus({data}) {
             {/* Scrollbar items */}
           {
             data.map(item=>{
-                return <div className="px-16 mb-8">
+                return <div key={item.id} className="px-16 mb-8">
                 <div
                   className={`mx-8 rounded-3xl h-52 p-8 `}
                   style={{
