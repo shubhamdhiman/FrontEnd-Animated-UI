@@ -1,4 +1,4 @@
-# Front-End Intern UI
+# Front-End Animated UI
 
 Created an animated/ attractive ui using GreehSock library.
 
